@@ -1,0 +1,654 @@
+tr_TR:
+  dates:
+    short_date_no_year: "D MMM"
+    short_date: "G AAA YYY"
+  time:
+    formats:
+      short: "%d-%m-%Y"
+      date_only: "%-d. %b. %Y"
+  title: "Discourse"
+  topics: "Konular"
+  posts: "gönderiler"
+  loading: "Yükleniyor"
+  powered_by_html: 'Gücünü <a href="http://www.discourse.org">Discourse</a> alır, en iyi görünüm için JavaScript etkinleştirmeniz gerekir'
+  log_in: "Giriş"
+  is_reserved: "reserve edilmiş"
+  purge_reason: "Eski ve tanımlanamamış olduğu için otomatik olarak silindi"
+  errors:
+    messages:
+      too_long_validation: "%{max} karakter ile limitli; siz %{length} karakter girdiniz."
+    embed:
+      load_from_remote: "Gönderi yüklenirken bir hata oluştu."
+  bulk_invite:
+    file_should_be_csv: "Yüklenen dosya csv ya da txt formatında olmalı. "
+  backup:
+    operation_already_running: "Devam eden bir işlem var. Yeni bir işlem başlatılamaz."
+    backup_file_should_be_tar_gz: "Yedek dosyası .tar.gz uzantılı olmalı."
+    not_enough_space_on_disk: "Yedeklemenin yapılması için diskte yeterli yer bulunmuyor."
+  not_logged_in: "Bunun için giriş yapmanız gerekir."
+  read_only_mode_enabled: "Bu site sadece okuma modunda. Etkileşimler etkisizleştirildi."
+  too_many_replies:
+    other: "Üzgünüz, yeni kullanıcılar geçici olarak aynı konu içinde sadece %{count} cevap ile sınırlılar. "
+  embed:
+    start_discussion: "Tartışmaya Başla"
+    continue: "Tartışmaya Devam Et"
+    more_replies:
+      other: "%{count} diğer cevap"
+    loading: "Tartışma Yükleniyor..."
+    permalink: "Kalıcı Bağlantı"
+    imported_from: "Bir bir ilave tartışmadır, asıl başlık adresi %{link}"
+    in_reply_to: "▶ %{username}"
+    replies:
+      other: "%{count} cevap"
+  too_many_mentions:
+    zero: "Üzgünüz, diğer kullanıcıların isimlerini belirtemezsiniz. "
+    one: "Üzgünüz, gönderide sadece bir kullanıcıdan daha bahsedebilirsiniz."
+    other: "Üzgünüz, bir gönderide sadece %{count} kullanıcıdan bahsedebilirsiniz."
+  too_many_mentions_newuser:
+    zero: "Üzgünüz, yeni üyeler diğer kullanıcılardan bahsedemezler."
+    one: "Üzgünüz, yeni kullanıcılar gönderi içinde sadece bir kullanıcının adını belirtebilir."
+    other: "Üzgünüz, yeni kullanıcılar bir gönderide sadece %{count} kullanıcıdan bahsedebilirler."
+  too_many_images:
+    zero: "Üzgünüz, yeni kullanıcılar gönderilere görsel ekleyemezler."
+    one: "Üzgünüz, yeni kullanıcılar gönderiye sadece bir görsel ekleyebilirler."
+    other: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece %{count} görsel koyabilirler. "
+  too_many_attachments:
+    zero: "Üzgünüz, yeni kullanıcılar gönderilere bir şey ekleyemezler."
+    one: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece bir eklenti koyabilirler. "
+    other: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece %{count} eklenti koyabilirler."
+  too_many_links:
+    zero: "Üzgünüz, yeni kullanıcılar gönderilere bağlantı ekleyemezler."
+    one: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece bir bağlantı ekleyebilirler. "
+    other: "Üzgünüz, yeni kullanıcılar bir gönderiye sadece %{count} bağlantı ekleyebilirler."
+  spamming_host: "Üzgünüm bu sunucuya link ekleyemezsiniz."
+  user_is_suspended: "Uzaklaştırılmış kullanıcılar gönderi yapamazlar."
+  just_posted_that: "yakın zamanda yaptığınız gönderiye çok benziyor"
+  has_already_been_used: "önceden kullanıldı"
+  invalid_characters: "geçersiz karakterler barındırıyor"
+  is_invalid: "geçersiz; biraz daha açıklayıcı olmaya çalışın"
+  next_page: "sonraki sayfa →"
+  prev_page: "← önceki sayfa"
+  page_num: "Sayfa %{num}"
+  topics_in_category: "'%{category}' kategorisindeki konular"
+  rss_posts_in_topic: " '%{topic}' konusunda ait RSS akışı"
+  rss_topics_in_category: "'%{category}' kategorisindeki konulara ait RSS akışı"
+  author_wrote: "%{author}:"
+  num_posts: "Gönderiler:"
+  num_participants: "Katılımcılar:"
+  read_full_topic: "Konunun tamamını okuyun."
+  private_message_abbrev: "PM"
+  rss_description:
+    latest: "Son konular"
+    hot: "Güncel konular"
+  too_late_to_edit: "Gönderi çok uzun zaman önce oluşturulmuş. Artık düzenlenemez ya da silinemez. "
+  groups:
+    errors:
+      can_not_modify_automatic: "Otomatik grubu değiştiremezsiniz"
+    default_names:
+      everyone: "herkes"
+      admins: "adminler"
+      moderators: "moderatörler"
+      staff: "görevli"
+      trust_level_0: "güven_seviyesi_0"
+      trust_level_1: "güven_seviyesi_1"
+      trust_level_2: "güven_seviyesi_2"
+      trust_level_3: "güven_seviyesi_3"
+      trust_level_4: "güven_seviyesi_4"
+  education:
+    until_posts:
+      other: "%{count} gönderi"
+    new-topic: |
+      %{site_name} &mdash sitesine hoşgeldiniz;  **yeni bir sohbet başlattığınız için teşekkür ederiz! **
+
+      - Başlık konunuzu en iyi şekilde açıklıyor mu? İlgi çekiyor mu?
+
+      - Neyle ilgili? Kimin ilgisini çeker? Neden önemli? Ne gibi cevaplar almayı bekliyorsunuz?
+
+      - Diğerlerinin konunuzu  *bulabilmesi * için doğru arama kelimeleri girin. Benzer konularle aynı yerde bulunması için, bir kategori seçin.
+
+      Daha fazlası için, [see our community guidelines](/guidelines). Bu yazı sadece ilk gönderinizde gözükür %{education_posts_text}.
+    avatar: |
+      ### Hesabın için bir fotoğraf yüklemeye ne dersin?
+
+      Birkaç başlık açtık, yanıtlar bıraktın fakat hala kendine has bir profil fotoğrafı ayarlamadın.
+
+       **[Profil sayfana](%{profile_path})** girip kendine ait bir fotoğraf yükleyebilirsin. Ya da kendini anlatan başka bir şeyler.
+
+      Herkesten farklı bir profil fotoğrafına sahip olmak seni ayrıcalıklı kılar ve çabuk tanınmanı sağlar. Bence bunu kaçırma.
+    sequential_replies: |
+      ### Aynı başlığa art arda yazmadan önce bir daha düşünün
+
+      Aynı başlığa defalarca art arda yazmak yerine tek bir mesajda @name şeklinde atıfta bulunarak herkese cevap vermeye çalışın.
+
+      Bir önceki mesajınızı düzenleyebilir ya da alıntı yapmak istediğiniz yeri seçerek <b>alıntıyla cevapla</b> butonunu kullanabilirsiniz.
+
+      İç içe yanıtlamalar arttıkça okunabilirlik azalacaktır.
+    dominating_topic: "###Sohbete başklarının katılmasına izin verin\n\nBu konunun sizin için önemli olduğunu görüyoruz &ndash; buradaki cevapların %{percent}% oranından fazlasını siz göndermişsiniz. \n\nDiğerlerinin de fikirlerini paylaşmaları için yeteri kadar zaman tanıdığınıza\
+      \ emin misiniz?\n"
+  activerecord:
+    attributes:
+      category:
+        name: "Kategori Adı"
+      user_profile:
+        bio_raw: "Hakkımda"
+    errors:
+      messages:
+        is_invalid: "geçersiz; biraz daha açıklayıcı olmaya çalışın"
+        has_already_been_used: "önceden kullanıldı"
+      models:
+        topic:
+          attributes:
+            base:
+              warning_requires_pm: "Özel mesajlara sadece uyarı ekleyebilirsiniz. "
+              too_many_users: "Uyarıları aynı anda sadece bir kişiye gönderebilirsiniz."
+            archetype:
+              cant_send_pm: "Üzgünüz, bu kullanıcıya özel mesaj gönderemezsiniz."
+        user:
+          attributes:
+            password:
+              common: "En çok kullanılan 10000 şifreden biri. Lütfen daha güvenli bir şifre seçin."
+            ip_address:
+              signup_not_allowed: "Bu hesaptan kayda izin verilmiyor."
+        color_scheme_color:
+          attributes:
+            hex:
+              invalid: "geçerli bir renk değil"
+  user_profile:
+    no_info_me: "<div class='missing-profile'>Profilinizdeki Hakkımda bölümü boş, <a href='/users/%{username_lower}/preferences/about-me'>doldurmak ister misiniz?</a></div>"
+    no_info_other: "<div class='missing-profile'>%{name} profilinde Hakkımda kısmına henüz bir şey girmedi</div>"
+  vip_category_name: "Dil"
+  vip_category_description: "Güven seviyesi 3 ve üzerinde olan üyelere özel kategori."
+  meta_category_name: "Meta"
+  meta_category_description: "Bu site, sitenin organizasyonu, nasıl çalıştığı ve nasıl geliştirilebileceği ile ilgili tartışma. "
+  staff_category_name: "Görevli"
+  category:
+    topic_prefix: "%{category} kategorisi hakkında "
+    cannot_delete:
+      has_subcategories: "Alt kategorileri bulunduğu için bu kategori silinemez."
+      topic_exists:
+        other: "Bu kategoriyi silemezsiniz çünkü %{count} konusu bulunuyor. En eski konu; %{topic_link}."
+      topic_exists_no_oldest: "Bu kategoriyi silemezsiniz çünkü %{count} konusu bulunuyor."
+  trust_levels:
+    newuser:
+      title: "yeni kullanıcı"
+    regular:
+      title: "üye"
+    leader:
+      title: "müdavim"
+    elder:
+      title: "lider"
+  rate_limiter:
+    slow_down: "Bu işlemi çok fazla tekrar ettiniz, lütfen daha sonra tekrar deneyiniz."
+    too_many_requests: "Bu işlem için günlük limitinizi aştınız. Lütfen tekrar denemek için %{time_left} bekleyin. "
+    hours:
+      other: "%{count} saat"
+    minutes:
+      other: "%{count} dakika"
+    seconds:
+      other: "%{count} saniye"
+  datetime:
+    distance_in_words:
+      half_a_minute: "< 1d"
+      less_than_x_seconds:
+        other: "< %{count}s"
+      x_seconds:
+        other: "%{count}s"
+      less_than_x_minutes:
+        other: "< %{count}m"
+      x_minutes:
+        other: "%{count}m"
+      about_x_hours:
+        other: "%{count}h"
+      x_days:
+        other: "%{count}d"
+      about_x_months:
+        other: "%{count}mon"
+      x_months:
+        other: "%{count}mon"
+      about_x_years:
+        other: "%{count}y"
+      over_x_years:
+        other: "> %{count}y"
+      almost_x_years:
+        other: "%{count}y"
+    distance_in_words_verbose:
+      half_a_minute: "şu anda"
+      less_than_x_seconds:
+        other: "şu anda"
+      x_seconds:
+        other: "%{count} saniye önce"
+      less_than_x_minutes:
+        other: "%{count} dakika ya da daha önce"
+      x_minutes:
+        other: "%{count} dakika önce"
+      about_x_hours:
+        other: "%{count} saat önce"
+      x_days:
+        other: "%{count} gün önce"
+      about_x_months:
+        other: "yaklaşık %{count} ay önce"
+      x_months:
+        other: "%{count} ay önce"
+      about_x_years:
+        other: "yaklaşık %{count} yıl önce"
+      almost_x_years:
+        other: "yaklaşık %{count} yıl önce"
+  password_reset:
+    no_token: "Üzgünüm, güvenlik anahtarınızın süresi doldu. Lütfen şifrenizi sıfırlamayı tekrar deneyin."
+    choose_new: "Lütfen yeni bir şifre seçin"
+    choose: "Lütfen şifre seçin"
+    update: 'Şifre Güncelle'
+    save: 'Şifre Belirle'
+    title: 'Şifre Yenile'
+    success: "Şifrenizi başarıyla değiştirdiniz ve giriş yaptınız."
+    success_unapproved: "Şifrenizi başarıyla değiştirdiniz."
+    continue: "%{site_name} adresine gidin"
+  change_email:
+    confirmed: "Email adresiniz güncellendi."
+    please_continue: "%{site_name} adresine gidin"
+    error: "Email adresiniz değiştirilirken bir hata oluştu. Bu adres zaten kullanımda olabilir."
+  activation:
+    action: "Hesabınızı aktive edin"
+    already_done: "Üzgünüz, hesap aktivasyon linki artık geçerli değil. Hesabınız zaten aktif olabilir mi?"
+    please_continue: "Yeni hesabınız doğrulandı ve şimdi giriş yaptınız."
+    continue_button: "%{site_name} adresine gidin"
+    welcome_to: "%{site_name} sitesine hoşgeldiniz!"
+    approval_required: "Bu foruma girebilmeniz için yeni hesabınızın bir moderatör tarafından manuel olarak onaylanması gerekir. Hesabınız onaylandığında email ile bilgilendirileceksiniz!"
+  post_action_types:
+    off_topic:
+      title: 'Konu dışı'
+      long_form: 'konu dışı olarak işaretlendi'
+    spam:
+      title: 'Gereksiz'
+      long_form: 'gereksiz olarak işaretlenmiş'
+    inappropriate:
+      title: 'Uygunsuz'
+      long_form: 'uygunsuz olarak işaretlemiş'
+    notify_user:
+      title: '{{username}} adlı kullanıcıyı bilgilendir'
+      long_form: 'bilgilendirilmiş kullanıcı'
+      email_title: '"%{title}" başlıklı gönderiniz'
+      email_body: "%{link}\n\n%{message}"
+    notify_moderators:
+      title: 'Moderatörleri bilgilendir'
+      long_form: 'bilgilendirilmiş moderatörler'
+      email_title: '"%{title}" başlığındaki bir gönderinin moderatör tarafından kontrol edilemesi gerekiyor.'
+      email_body: "%{link}\n\n%{message}"
+    bookmark:
+      description: 'Bu gönderiyi favorilerime ekle'
+    like:
+      title: 'Beğen'
+      description: 'Bu gönderiyi beğen'
+      long_form: 'Bunu beğendiniz'
+  topic_flag_types:
+    spam:
+      title: 'Gereksiz'
+      long_form: 'gereksiz olarak işaretlenmiş'
+    inappropriate:
+      title: 'Uygunsuz'
+      long_form: 'uygunsuz olarak işaretlendi'
+    notify_moderators:
+      title: 'Moderatörleri bilgilendir'
+      email_body: "%{link}\n\n%{message}"
+  flagging:
+    user_must_edit: '<p>Bu gönderi topluluk tarafından bayraklanmış ve geçici olarak gizlenmiştir.</p>'
+  unsubscribed:
+    title: 'Üyeliğiniz İptal Edildi'
+    description: "Üyeliğiniz iptal edildi. Sizin bir daha iletişime geçmeyeceğiz."
+    oops: "İşlemi geri almak isterseniz, aşağıya tıklayın."
+  reports:
+    visits:
+      title: "Kullanıcı Ziyaretleri"
+      xaxis: "Gün"
+      yaxis: "Ziyaret sayısı"
+    signups:
+      title: "Kullanıcılar"
+      xaxis: "Gün"
+      yaxis: "Yeni kullanıcı sayısı"
+    topics:
+      title: "Konular"
+      xaxis: "Gün"
+      yaxis: "Yeni konu sayısı"
+    posts:
+      title: "Gönderiler"
+      xaxis: "Gün"
+      yaxis: "Yeni gönderi sayısı"
+    likes:
+      title: "Beğeniler"
+      xaxis: "Gün"
+      yaxis: "Yeni beğenilerin sayısı"
+    flags:
+      title: "Bayraklar"
+      xaxis: "Gün"
+      yaxis: "bayrakların sayısı"
+    bookmarks:
+      xaxis: "Gün"
+    starred:
+      title: "Yıldızlı"
+      xaxis: "Gün"
+      yaxis: "Yeni yıldızlı konuların sayısı"
+    users_by_trust_level:
+      xaxis: "Güven Seviyesi"
+      yaxis: "Kullanıcı Sayısı"
+    emails:
+      title: "Gönderilen Emailler"
+      xaxis: "Gün"
+      yaxis: "Email Sayısı"
+    user_to_user_private_messages:
+      title: "Kullanıcıdan Kullanıcıya"
+      xaxis: "Gün"
+      yaxis: "Özel mesajların sayısı"
+    system_private_messages:
+      title: "Sistem"
+      xaxis: "Gün"
+      yaxis: "Özel mesajların sayısı"
+    moderator_warning_private_messages:
+      xaxis: "Gün"
+      yaxis: "Özel mesajların sayısı"
+    notify_moderators_private_messages:
+      title: "Moderatöleri Bilgilendir"
+      xaxis: "Gün"
+      yaxis: "Özel mesajların sayısı"
+    notify_user_private_messages:
+      title: "Kullanıcıyı Bilgilendir"
+      xaxis: "Gün"
+      yaxis: "Özel mesajların sayısı"
+    top_referrers:
+      xaxis: "Kullanıcı"
+      num_topics: "Konular"
+    top_traffic_sources:
+      xaxis: "Domain"
+      num_topics: "Konular"
+      num_users: "Kullanıcılar"
+    top_referred_topics:
+      xaxis: "Konu"
+  dashboard:
+    contact_email_missing: "Siteniz için bir iletişim emaili girmediniz. Lütfen <a href='/admin/site_settings'>Site Ayarları'nda</a> iletişim emailinizi güncelleyin."
+    contact_email_invalid: "Site iletişim emaili geçersiz. Lütfen <a href='/admin/site_settings'>Site Ayarları'nda</a> iletişim emailinizi güncelleyin."
+    site_contact_username_warning: "Site kullanıcı adı boş bırakılmış. Lütfen <a href='/admin/site_settings'>Site Ayarları'nda</a> güncelleyin. Sistem mesajlarını gönderen kişi olarak gözükecek adminin kullanıcı adını girin. "
+  content_types:
+    usage_tips:
+      title: "Yeni Kullanıcı Kılavuzu"
+      description: "Yeni kullanıcılar için kılavuz ve gerekli bilgiler."
+    welcome_user:
+      title: "Hoşgeldiniz: Yeni Kullanıcı"
+      description: "Tüm yeni kullanıcılara, ilk üye olduklarında otomatik olarak gönderilen özel mesaj. "
+    tos_user_content_license:
+      title: "Hizmet Kullanım Koşulları: İçerik Lisansı"
+    tos_miscellaneous:
+      title: "Hizmet Kullanım Koşulları: Muhtelif"
+    bottom:
+      description: "Her sayfanın altına eklenecek HTML."
+    tos_signup_form_message:
+      title: "Üyelik Formu: Hizmet Kullanım Koşulları"
+    notification_email_top:
+      description: "Tüm bildiri emaillerinin en üstünde yer alacak mesaj."
+  site_settings:
+    min_post_length: "Gönderide olması gereken minimum karakter sayısı"
+    min_private_message_post_length: "Özel mesajlarda gönderide olması gereken minimum karakter sayısı"
+    max_post_length: "Gönderide olması gereken minimum karakter sayısı"
+    min_topic_title_length: "Konuda olması gereken minimum karakter sayısı"
+    max_topic_title_length: "Konu başlığında olabilecek maksimum karakter sayısı"
+    min_private_message_title_length: "Özel mesajın başlığında kullanılabilecek minimum karakter sayısı"
+    min_search_term_length: "Arama için girilecek kelimede olması gereken minimum karakter sayısı"
+    allow_uncategorized_topics: "Konuların kategori seçmeden oluşturulmasına izin ver."
+    unique_posts_mins: "Kullanıcının aynı içerikle yeni bir gönderi oluşturmadan önce geçmesi gereken süre"
+    edit_history_visible_to_public: "Düzenlenmiş gönderinin eski verisyonlarını herkesin görmesine izin ver. Bu özellik kapatıldığında, eski versiyonları sadece görevliler görebilir."
+    delete_removed_posts_after: "Yazarı tarafından kaldırılan gönderiler (n) saat sonra otomatik olarak silinecektir."
+    max_image_width: "Bir gönderideki küçük resimlerin maksimum genişliği"
+    max_image_height: "Bir gönderideki küçük resimlerin maksimum yüksekliği"
+    post_excerpt_maxlength: "Gönderi alıntısının / özetinin maksimum uzunluğu."
+    logo_url: "Sitenizin sol üstünde yer alan logo örn: http://example.com/logo.png"
+    digest_logo_url: "Sitenize ait e-bültenin tepesinde kullanılan logo. Boş bırakılırsa `logo_url` kullanılır. örn: http://example.com/logo.png"
+    logo_small_url: "Sitenizin sol üstünde yer alacak, sayfayı aşağı kaydırdığınızda gözükecek küçük logo. Örnek: http://example.com/logo-small.png "
+    favicon_url: "Site ikonunuz. Bakın; http://en.wikipedia.org/wiki/Favicon"
+    apple_touch_icon_url: "Apple dokunmatik cihazları için kullanılan ikon. Önerilen boyut; 144 x 144 pixel."
+    use_https: "Sitenizin url'i (Discourse.base_url) http mi yoksa https uzantılı mı olmalı? HTTPS AYARLARINIZ TAMAMLANMADIIYSA VE HENÜZ ÇALIŞMIYORSA BUNU ETKİNLEŞTİRMEYİN! "
+    enable_private_messages: "Güven seviyesi 1 olan kullanıcıların özel mesaj oluşturmasına ve özel mesajlara cevap vermesine izin ver"
+    max_topics_in_first_day: "Kullanıcının sitedeki ilk gününde, oluşturabileceği maksimum konu sayısı"
+    max_replies_in_first_day: "Kullanıcının sitedeki ilk gününde, oluşturabileceği maksimum cevap sayısı"
+    num_flags_to_block_new_user: "Eğer, yeni bir kullanıcının gönderisi num_users_to_block_new_user farklı kullanıcı tarafından spam olarak bayraklanırsa, kullanıcının bütün gönderilerini gizleyin ve yeni gönderi oluşturmasını engelleyin. Özelliği kaldırmak için 0."
+    notify_mods_when_user_blocked: "Eğer bir kullanıcı otomatik olarak engellendiyse, tüm moderatörlere mesaj gönder."
+    must_approve_users: "Siteye erişimlerine izin verilmeden önce tüm yeni kullanıcı hesaplarının görevli tarafından onaylanması gerekir. "
+    ga_tracking_code: "Google analytics (ga.js) tracking code code, eg: UA-12345678-9; see http://google.com/analytics"
+    allow_moderators_to_create_categories: "Moderatörlerin yeni kategoriler oluşturmasına izin ver"
+    enable_badges: "Rozet sistemini aktifleştir (deneme aşamasında)"
+    min_password_length: "Minimum şifre uzunluğu."
+    block_common_passwords: "En çok kullanılan 10,000 şifre arasında yer alan şifrelere izin verme."
+    rate_limit_create_topic: "Bir konu oluşturduktan sonra, başka bir konu oluşturmak için kullanıcılar (n) saniye beklemeli. "
+    rate_limit_create_post: "Bir gönderi oluşturduktan sonra, başka bir gönderi oluşturmak için kullanıcılar  (n) saniye beklemeli. "
+    rate_limit_new_user_create_topic: "Bir konu oluşturduktan sonra, başka bir konu oluşturmak için yeni kullanıcılar (n) saniye beklemeli. "
+    rate_limit_new_user_create_post: "Bir gönderi oluşturduktan sonra, başka bir gönderi oluşturmak için yeni kullanıcılar (n) saniye beklemeli. "
+    max_likes_per_day: "Bir günde, bir kullanıcının verilebileceği maksimum beğeni sayısı."
+    max_stars_per_day: "Bir günde, bir kullanıcının yıldızlayabileceği maksimum konu sayısı."
+    max_topics_per_day: "Bir günde, bir kullanıcının oluşturabileceği maksimum konu sayısı."
+    max_private_messages_per_day: "Bir günde, bir kullanıcının oluşturabileceği maksimum özel mesaj sayısı."
+    suggested_topics: "Konunun en altında yer alan, önerilen konu sayısı. "
+    limit_suggested_to_category: "Önerilen konularda sadece bulunduğu kategoriye ait konuları göster."
+    tl1_requires_topics_entered: "Yeni bir kullanıcının güven seviyesi 1'e yükseltilmeden önce oluşturması gereken konu sayısı."
+    tl1_requires_read_posts: "Yeni bir kullanıcının güven seviyesi 1'e yükseltimeden önce okuması gereken gönderi sayısı."
+    tl1_requires_time_spent_mins: "Yeni bir kullanıcının güven seviyesi 1'e yükseltimeden önce gönderileri okuması gereken süre."
+    tl2_requires_topics_entered: "Bir kullanıcının güven seviyesi 2'ye yükseltimeden önce oluşturması gereken konu sayısı."
+    tl2_requires_read_posts: "Bir kullanıcının güven seviyesi 2'ye yükseltimeden önce okuması gereken gönderi sayısı."
+    tl2_requires_time_spent_mins: "Bir kullanıcının güven seviyesi 2'ye yükseltimeden önce gönderileri okuması gereken süre. "
+    tl2_requires_days_visited: "Bir kullanıcının güven seviyesi 2'ye yükseltilmeden önce siteye girmesi gereken gün sayısı. "
+    tl2_requires_likes_received: "Bir kullanıcının güven seviyesi 2'ye yükseltilmeden önce alması gereken beğeni sayısı."
+    tl2_requires_topic_reply_count: "Bir kullanıcının güven seviyesi 2'ye yükseltilmeden önce cevaplaması gereken konu sayısı."
+    tl3_requires_days_visited: "Bir kullanıcının güven seviyesi 3'e yükseltimeye hak kazanmak için, son 100 günde siteyi ziyaret etmesi gereken minimum gün sayısı. (0 - 100)"
+    tl3_requires_topics_replied_to: "Bir kullanıcının güven seviyesi 3'e yükseltilmeye hak kazanması için son 100 günde cevap yazması gereken minimum konu sayısı. (0 ya da daha fazla)"
+    newuser_max_links: "Yeni bir kullanıcının bir gönderiye ekleyebileceği bağlantı sayısı."
+    newuser_max_images: "Yeni bir kullanıcının bir gönderiye ekleyebileceği resim sayısı."
+    newuser_max_attachments: "Yeni bir kullanıcının bir gönderiye ekleyebileceği dosya sayısı."
+    email_time_window_mins: "Kullanıcılara gönderilerini düzenlemeleri ve tamamlamaları için zaman verin ve herhangi bir bildiri emaili göndermeden önce (n) dakika bekleyin."
+    max_word_length: "Konu başlığında bulunabilecek maksimum karakter sayısı."
+    privacy_policy_url: "Eğer başka bir yerde bulunan ve kullanmak istediğiniz bir Gizlilik Politikası dökümanı varsa, URL adresini eksiksiz buraya girin."
+    reply_by_email_enabled: "Konulara email üzerinden cevap yazmayı etkinleştir."
+    disable_emails: "Discourse'un herhangi bir email göndermsine izin verme"
+    default_digest_email_frequency: "\"Özet\" postalar varsayılan olarak ne sıklıkla gönderilsin? Üyeler bu ayarı kendileri değiştirebilir."
+    default_external_links_in_new_tab: "Dış bağlantıları yeni sekmede aç. Üyeler bu ayarı kendileri değiştirebilir."
+    detect_custom_avatars: "Olsun ya da olmasın kullanıcıların özel avatarlar yüklemelerini kontrol et."
+    max_daily_gravatar_crawls: "Discourse, Gravatar'ı özel avatarlar için günde en fazla kaç kez kontrol etsin"
+    public_user_custom_fields: "Kullanıcıların herkes tarafından görülebilir \"özel alanlar\" oluşturmaları için beyaz liste."
+    allow_profile_backgrounds: "Kullanıcıların profillerine arka plan eklemesine izin ver."
+    sequential_replies_threshold: "Kullanıcının ardarda çok fazla cevap gönderdiğine dair uyarı alması için, bir konuda üstüste yapması gereken gönderi sayısı. "
+    enable_mobile_theme: "Mobil cihazlar mobil uyumlu temayı kullanır, dilerse masaüstü görünüme geçebilirler. Eğer özel bir stil kullanıyorsanız bunu devredışı bırakın."
+    suppress_uncategorized_badge: "Kategorisiz başlıklar için başlık listesinde rozetleri gösterme."
+    display_name_on_posts: "Gönderilerde kullanıcı adına @username ek olarak kullanıcının tam adını da göster."
+    errors:
+      invalid_username: "Bu kullanıcı adı ile bir kullanıcı bulunmuyor."
+      invalid_integer_min_max: "Değer %{min} ile %{max} arasında olmalı."
+      invalid_integer_min: "Değer %{min} ya da daha fazla olmalı."
+      invalid_integer_max: "Değer en fazla %{max} olabilir."
+      invalid_string: "Geçersiz değer."
+      invalid_string_min_max: "%{min} ile %{max} karakter arasında olmalı."
+      invalid_string_min: "En az %{min} karakter olmalı."
+      invalid_string_max: "%{max} karakterden daha fazla olamaz."
+  notification_types:
+    mentioned: "%{display_username} sizden bahsetti: %{link}"
+    liked: "%{display_username} sizin gönderinizi beğendi: %{link}"
+    replied: "%{display_username} sizin gönderinize cevap verdi: %{link}"
+    edited: "%{display_username} sizin gönderinizi düzenledi: %{link}"
+    moved_post: "%{display_username} gönderinizi buraya taşıdı: %{link}"
+    private_message: "%{display_username} size özel mesaj gönderi: %{link}"
+    invited_to_private_message: "%{display_username} sizi özel mesaja davet etti: %{link}"
+    invitee_accepted: "%{display_username} davetinizi kabul etti"
+  search:
+    types:
+      category: 'Kategoriler'
+      topic: 'Sonuçlar'
+      user: 'Kullanıcılar'
+  redirected_to_top_reasons:
+    new_user: "Hoşgeldiniz! Bunlar en yeni oluşturulan popüler gönderiler."
+    not_seen_in_a_month: "Hoşgeldiniz! Bir süredir yoktunuz. Bunlar, sizin yokluğunuzdaki en popüler konular."
+  move_posts:
+    new_topic_moderator_post:
+      other: "%{count} gönderiyi yeni bir konuya taşıdım: %{topic_link}"
+    existing_topic_moderator_post:
+      other: "%{count} gönderiyi var olan konulardan birine taşıdım: %{topic_link}"
+  topic_statuses:
+    archived_enabled: "Konu şimdi arşivlendi. Donduruldu ve herhangi bir şekilde değişiklik yapılamaz."
+    archived_disabled: "Konu şimdi arşivden çıkarıldı ve artık değişiklik yapılabilir."
+    closed_enabled: "Konu şimdi kapatıldı. Artık yeni cevap yazılmasına izin yok. "
+    closed_disabled: "Konu şimdi açıldı. Yeni cevaplara izin var."
+    autoclosed_disabled: "Konu şimdi açıldı. Yeni cevaplara izin verildi."
+  login:
+    not_approved: "Hesabını henüz onaylanmadı. Giriş yapmak için hazır olduğunuzda email ile bilgilendirileceksiniz."
+    incorrect_username_email_or_password: "Yanlış kullanıcı adı, email ya da şifre"
+    wait_approval: "Üye olduğunuz için teşekkürler. Hesabınız onaylandığında sizi haberdar edeceğiz."
+    active: "Hesabını aktive edildi ve kullanıma hazır."
+    activate_email: "Neredeyse hazırsınız! <b>%{email}</b> adresine bir aktivasyon emaili gönderdik. Hesabınızı aktive etmek için lütfen emaildeki yönlendirmeleri takip edin."
+    not_activated: "Henüz giriş yapamazsınız. Size bir aktivasyon emaili gönderdik. Hesabınızı aktive etmek için lütfen emaildeki yönlendirmeleri takip edin."
+    not_allowed_from_ip_address: "Bu IP adresinden %{username} kullanıcı adı ile giriş yapamazsınız."
+    suspended: "%{date} tarihine kadar giriş yapamazsınız."
+    suspended_with_reason: "%{date} tarihine kadar giriş yapamazsınız. Uzaklaştırılma nedeniniz: %{reason}"
+    errors: "%{errors}"
+    something_already_taken: "Bir hata oluştu. Bu email ya da kullanıcı daha önceden kullanılmış olabilir. Şifremi unuttum linkini kullanabilirsiniz."
+    omniauth_error_unknown: "Girişiniz yapılırken bir hata oluştu, lütfen tekrar deneyin."
+    new_registrations_disabled: "Şu an yeni hesap oluşturulamıyor. "
+    password_too_long: "Şifreler maksimum 200 karakter olabilir."
+  user:
+    username:
+      short: "en az %{min} karakter olmalı"
+      long: "%{max} karakterden fazla olmamalı"
+      must_begin_with_alphanumeric: "harf ya da sayı ile başlamalı"
+    ip_address:
+      blocked: "engellenmiş."
+  invite_mailer:
+    subject_template: "%{invitee_name}  sizi %{site_domain_name} sitesindeki '%{topic_title}' adlı konuya davet etti. "
+  invite_forum_mailer:
+    subject_template: "%{invitee_name} sizi %{site_domain_name} sitesine katılmanız için davet etti"
+    text_body_template: |
+      %{invitee_name} sizi katılmaya davet etti
+
+      > **%{site_title}**
+      >
+      > %{site_description}
+
+      İlgileniyorsanız, aşağıdaki linke tıklayın:
+
+      %{invite_link}
+
+      Bu davet güvenilir bir kullanıcıdan geliyor. O nedenle giriş yapmanız gerekmeyecek.
+  new_version_mailer:
+    subject_template: "[%{site_name}] Yeni Discourse versiyonu, güncelleme var"
+  flags_reminder:
+    please_review: "Lütfen inceleyin."
+    post_number: "gönderi"
+  flags_dispositions:
+    agreed: "Bizi bilgilendirdiğiniz için teşekkür ederiz. Bir sorun olduğuna inanıyoruz ve ilgileniyoruz."
+    agreed_and_deleted: "Bizi bilgilendirdiğiniz için teşekkür ederiz. Bir sorun olduğu konusunda size katılıyoruz, gönderiyi kaldırdık. "
+    disagreed: "Bizi bilgilendirdiğiniz için teşekkür ederiz. Konu ile ilgileniyoruz."
+    deferred: "Bizi bilgilendirdiğiniz için teşekkür ederiz. Konu ile ilgileniyoruz."
+    deferred_and_deleted: "Bizi bilgilendirdiğiniz için teşekkür ederiz. Gönderiyi kaldırdık."
+  system_messages:
+    welcome_invite:
+      subject_template: "%{site_name} sitesine hoşgeldiniz!"
+    too_many_spam_flags:
+      subject_template: "Yeni hesap bloklandı"
+    blocked_by_staff:
+      subject_template: "Hesap bloklandı"
+    pending_users_reminder:
+      subject_template:
+        other: "%{count} kullanıcı onay bekliyor"
+  user_notifications:
+    previous_discussion: "Önceki Cevaplar"
+    posted_by: "%{post_date} tarihinde %{username} tarafından gönderildi"
+    user_invited_to_private_message_pm:
+      subject_template: "[%{site_name}] %{username} sizi bu özel mesaja davet etti; '%{topic_title}'"
+      text_body_template: |
+        %{username} sizi %{site_name} sitesinde, '%{topic_title}' konu başlıklı bir özel mesaja davet etti:
+
+        Konuyu görüntülemek için bu linki ziyaret edin: %{base_url}%{url}
+    user_replied:
+      subject_template: "[%{site_name}] %{topic_title}"
+      text_body_template: |
+        %{message}
+
+        %{context}
+
+        ---
+        %{respond_instructions}
+    user_quoted:
+      subject_template: "[%{site_name}] %{topic_title}"
+      text_body_template: |
+        %{message}
+
+
+        %{context}
+
+
+        ---
+
+        %{respond_instructions}
+    user_mentioned:
+      subject_template: "[%{site_name}] %{topic_title}"
+      text_body_template: |
+        %{message}
+
+
+        %{context}
+
+        ---
+
+        %{respond_instructions}
+    user_posted:
+      subject_template: "[%{site_name}] %{topic_title}"
+      text_body_template: |
+        %{message}
+
+
+        %{context}
+
+
+        ---
+
+        %{respond_instructions}
+    user_posted_pm:
+      subject_template: "[%{site_name}] [PM] %{topic_title}"
+      text_body_template: |
+        %{message}
+
+
+        %{context}
+
+
+        ---
+
+        %{respond_instructions}
+    digest:
+      click_here: "buraya tıkla"
+      read_more: "Devamını Oku"
+      posts:
+        other: "%{count} gönderi"
+    forgot_password:
+      subject_template: "[%{site_name}] Şifre yenileme"
+    authorize_email:
+      subject_template: "[%{site_name}] Yeni email adresinizi onaylayın"
+  page_not_found:
+    see_more: "Daha fazla"
+    search_title: "Bu sitede ara"
+    search_google: "Google"
+  terms_of_service:
+    title: "Hizmet Kullanım Şartları"
+    signup_form_message: '<a href="/tos" target="_blank">Hizmet Kullanım Şartları''nı</a> okudum ve kabul ediyorum.'
+  deleted: 'silindi'
+  upload:
+    attachments:
+      too_large: "Üzgünüz, yüklemeye çalıştığınız dosya çok büyük (en fazla %{max_size_kb}%kb olabilir)."
+    images:
+      too_large: "Üzgünüz, yüklemeye çalıştığınız resim çok büyük (en fazla %{max_size_kb}%kb olabilir), lütfen küçültüp tekrar deneyin."
+      fetch_failure: "Üzgünüz, resim seçilirken hata oluştu."
+      unknown_image_type: "Üzgünüz ama yüklemeye çalıştığınız dosya resim dosyası değil. "
+  email_log:
+    no_user: "Bu kullanıcı bulunamadı; id %{user_id}"
+    post_not_found: "Bu kimlikte bir gönderi bulunamadı; %{post_id}"
+    post_deleted: "gönderi sahibi tarafından silindi"
+    user_suspended: "kullanıcı uzaklaştırıldı"
+    already_read: "kullanıcı bu gönderiyi okudu"
+    message_blank: "mesaj boş"
+  privacy: "Gizlilik"
+  edit_this_page: "Bu sayfayı düzenle"
+  guidelines_topic:
+    title: "SSS/Kılavuz"
+  privacy_topic:
+    title: "Gizlilik Politikası"
